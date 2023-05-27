@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.container h1 {
+  margin-bottom: 16px;
+}
+
+.container ion-button {
+  margin-bottom: 16px;
+}
+
+.container ion-list {
+  width: 100%;
+}
+
+.container ion-item {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container ion-item img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.container ion-item h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.container ion-modal {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container ion-modal div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.container ion-modal img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.container ion-modal h2 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.container ion-modal p {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.container ion-modal ion-button {
+  margin-top: 16px;
+}
+
+.container ion-alert {
+  --backdrop-opacity: 0.8;
+}
